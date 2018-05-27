@@ -13,10 +13,59 @@
         <div id="app">
             <div class="container">
                 <navbar></navbar>
+                <div class="panel panel-default">
+                    <div class="panel-heading">Incrementing</div>
+                    <div class="panel-body">
+                        For every input, you should return an incremented input by 1.<br />
+                        For example, for input 1 the result should be 2.<br />
+                    </div>
+                </div>
+                <p><code>function(input){</code></p>
                 <div class="form-group">
-                    <textarea id="code"class="form-control" rows="10" style="resize:none;"></textarea>
+                    <textarea id="code" class="form-control" rows="10" style="resize:none;"></textarea>
+                </div>
+                <p><code>}</code></p>
+
+                <div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Value</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr id="test1">
+                                <td>1</td>
+                                <td>1</td>
+                                <td id="result1">?</td>
+                            </tr>
+                            <tr id="test2">
+                                <td>2</td>
+                                <td>2</td>
+                                <td id="result2">?</td>
+                            </tr>
+                            <tr id="test3">
+                                <td>3</td>
+                                <td>3</td>
+                                <td id="result3">?</td>
+                            </tr>
+                            <tr id="test4">
+                                <td>4</td>
+                                <td>?</td>
+                                <td id="result4">?</td>
+                            </tr>
+                            <tr id="test5">
+                                <td>5</td>
+                                <td>?</td>
+                                <td id="result5">?</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
                 <button id="submit" type="button" class="btn btn-success btn-block">Run</button>
+
                 <foot></foot>
 
                 <!-- Modal -->
@@ -32,13 +81,14 @@
                             <div class="modal-body">
                                 <p id="modalText"></p>
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            </div>
                         </div>
-
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
                     </div>
+
                 </div>
+            </div>
             </div>
         </div>
 
