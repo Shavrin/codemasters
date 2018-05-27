@@ -1,7 +1,7 @@
 $("#submit").click(function () {
 
-    var input = [[1,2,3,4,5], [25,11,-22,30], [0], [-22,-22,-22,-22,22], [5,5,5,5,11]];
-    var correctResults = [5, 40 , 0, -66, 31];
+    var input = ['ABCDFE','-123ABCa','123123123123123aA','xx!@#!@#aBA','AbAbAbAbAbA'];
+    var correctResults = ['abcdfe', '-123abca', '123123123123123aa', 'xx!@#!@#aba', 'abababababa'];
 
     function callback(element, index, array) {
         var result = eval(code + '\n execute(input[' + index + ']);');
