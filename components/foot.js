@@ -9,7 +9,7 @@ Vue.component('foot',{
 	    <div class="row">
 
 	      <!-- Grid column -->
-	      <div class="col-md-6 mt-md-0 mt-3">
+	      <div class="col-xl-6 mt-md-0 mt-3">
 
 	      <hr class="clearfix w-100 d-md-none pb-3">
 		<!-- Content -->
