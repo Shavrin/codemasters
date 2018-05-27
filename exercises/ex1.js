@@ -1,7 +1,7 @@
 $("#submit").click(function () {
 
     var input = [[1,2,3,4,5], [25,11,-22,30], [0], [-22,-22,-22,-22,22], [5,5,5,5,11]];
-    var correctResults = [5, 40 , 0, -66, 31];
+    var correctResults = [5, 30 , 0, 22, 11];
 
     function callback(element, index, array) {
         var result = eval(code + '\n execute(input[' + index + ']);');
